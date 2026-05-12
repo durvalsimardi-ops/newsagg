@@ -15,7 +15,7 @@ export default async function Home({
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100">
       <header className="border-b border-zinc-800 py-8 px-4 text-center">
-        <h1 className="text-3xl font-bold tracking-tight">Painel de Notícias</h1>
+        <h1 className="text-3xl font-bold tracking-tight">Pauta</h1>
         <p className="text-zinc-400 mt-1 text-sm">Política e Tecnologia · Atualizado a cada hora</p>
       </header>
 
