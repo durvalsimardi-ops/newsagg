@@ -8,7 +8,7 @@ const opcoes = [
 
 export default function Filtro({ categoriaAtual }: { categoriaAtual: string }) {
   return (
-    <div className="flex gap-2">
+    <div className="flex flex-wrap gap-2">
       {opcoes.map((op) => (
         <Link
           key={op.value}
